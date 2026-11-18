@@ -20,9 +20,16 @@ public class Main {
 //        for(int e:number)
 //            System.out.println(e);
 
+// arr.update(number,7,5);
+arr.delet(number,3);
+arr.traversal(number);
 
-
-
+int result=arr.liner_serch(number,6);
+        if(result!=-1){
+            System.out.println("value found");
+        }else {
+            System.out.println("value not found");
+        }
 
     }
 
