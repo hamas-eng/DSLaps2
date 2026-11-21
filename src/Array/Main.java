@@ -10,26 +10,29 @@ public class Main {
         Scanner scan=new Scanner(System.in);
 
         int []number={3,45,6,78,5};
-         int []number2=new int[5];
+//         int []number2=new int[5];
 //        System.out.println(Arrays.toString(number));
 
        Arrayss arr=new Arrayss();
-//        arr.traversal(number);
+       Arrays.sort(number);
+        arr.traversal(number);
+        arr.shift_delet(number,2);
 //        System.out.println("==============");
 //        arr.reverse_traversal(number);
 //        for(int e:number)
 //            System.out.println(e);
 
 // arr.update(number,7,5);
-arr.delet(number,3);
-arr.traversal(number);
+//arr.delet(number,3);
+//arr.traversal(number);
 
-int result=arr.liner_serch(number,6);
-        if(result!=-1){
-            System.out.println("value found");
-        }else {
-            System.out.println("value not found");
-        }
+//int result=arr.liner_search(number,6);
+//        int result=arr.Binary_search(number,12,2,0);
+//        if(result!=-1){
+//            System.out.println("value found");
+//        }else {
+//            System.out.println("value not found");
+//        }
 
     }
 
